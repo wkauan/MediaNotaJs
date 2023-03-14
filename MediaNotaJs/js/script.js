@@ -4,7 +4,7 @@ function Calcular() {
     var nota3 = parseFloat(document.getElementById("nota3").value); 
     var nota4 = parseFloat(document.getElementById("nota4").value);
   
-    var mediafinal = parseFloat(((nota1 + nota2 + nota3 + nota4)/4).toFixed(1));
+    var mediafinal = ((nota1+nota2+nota3+nota4)/4).toFixed(1);
     
     var valorFinal = document.getElementById("mediaFinal");
     valorFinal.innerHTML = "Sua média é " + mediafinal;
